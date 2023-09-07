@@ -1,0 +1,110 @@
+/* Navbar style */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  margin: 0%;
+  border-radius: 10px;
+}
+
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+#home {
+  float: left;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+      float: none;
+      display: block;
+  }
+}
+
+/* Shopping cart content style */
+.content-shoping-cart {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px;
+  padding: 31px;
+}
+
+.form {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 50px;
+}
+
+.SOMME {
+  height: 20px;
+  width: 80px;
+}
+
+#button-minus {
+  height: 33px;
+}
+
+.valeur {
+  height: 20px;
+  width: 80px;
+}
+
+.button-PLUS {
+  height: 33px;
+}
+
+.img-2 {
+  height: 75px;
+}
+
+.img-1 {
+  height: 70px;
+}
+
+.button-exit {
+  height: 30px;
+}
+
+.button-minus {
+  height: 33px;
+}
+
+.fa-heart {
+  color: blue;
+}
+
+.form {
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.shoop {
+  background-color: rgb(0, 0, 0);
+}
+
+.shoop p {
+  color: rgb(0, 0, 0);
+}
+
+#totalPrice {
+  color: #fff;
+}
+
+#shopping-bag-total {
+  color: brown;
+}

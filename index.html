@@ -1,0 +1,74 @@
+<!-- This is the main HTML structure of the shopping cart page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Include external stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Include Font Awesome 4.7 for icons (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="shoop">
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <div id="home"><a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a></div> 
+        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+    </div>
+
+    <!-- Cart information -->
+    <p id="totalPrice"> Total Price:$<span id="shopping-bag-total">0</span></p>
+    <span name="tot" id="tot"> </span>
+
+    <!-- Shopping cart items -->
+    <div class="form">
+        <section class="content-shoping-cart">
+            <button type="button" class="button-exit">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="img-2" src="spedri.jpg">
+            <p>
+                <span style="color:rgb(26, 26, 34)">Spedri</span> </br>
+                <span style="color:rgb(122, 122, 141)">white</span>
+            </p>
+            <button class="button-PLUS">+</button>
+            <span type="text" class="valeur">0</span>
+            <button class="button-minus">-</button>
+            <p>$<span class="SOMME">500</span></p>
+        </section>
+        <section class="content-shoping-cart">
+            <button type="button" class="button-exit">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="img-2" src="jorden.jpg">
+            <p>
+                <span style="color:rgb(26, 26, 34)">Air Jorden 5</span> </br>
+                <span style="color:rgb(122, 122, 141)">white</span>
+            </p>
+            <button class="button-PLUS">+</button>
+            <span type="text" class="valeur">0</span>
+            <button class="button-minus">-</button>
+            <p>$<span class="SOMME">400</span></p>
+        </section>
+        <section class="content-shoping-cart">
+            <button type="button" class="button-exit">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="img-2" src="AirJorden4.jpg">
+            <p>
+                <span style="color:rgb(26, 26, 34)">Air Jorden 4</span> </br>
+                <span style="color:rgb(122, 122, 141)">white</span>
+            </p>
+            <button class="button-PLUS">+</button>
+            <span type="text" class="valeur">0</span>
+            <button class="button-minus">-</button>
+            <p>$<span class="SOMME">300</span></p>
+        </section>
+    </div>
+    <!-- Include JavaScript file -->
+    <script src="shoping.js"> </script>
+</body>
+</html>
